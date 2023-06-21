@@ -15,6 +15,15 @@ flowchart TB
     id0 --> id1 --> id2 --> id3 --> id4
 ```
 
+```mermaid
+flowchart TB
+    id0{分岐}
+    id1{処理1}
+    id2{処理2}
+    id0 -- true --> id1
+    id0 -- false --> id2
+```
+
 
 # 001 数字にする
 
