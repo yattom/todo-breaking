@@ -6,7 +6,7 @@
 ---
 title: Hello World
 ---
-flowchart UD
+flowchart TB
     id1[入力]
     id2[処理]
     id3[出力]
