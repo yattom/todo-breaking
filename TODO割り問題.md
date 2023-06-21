@@ -18,8 +18,8 @@ flowchart TB
 ```mermaid
 flowchart TB
     id0{分岐}
-    id1{処理1}
-    id2{処理2}
+    id1[処理1]
+    id2[処理2]
     id0 -- true --> id1
     id0 -- false --> id2
 ```
