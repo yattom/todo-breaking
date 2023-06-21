@@ -7,11 +7,11 @@
 title: Hello World
 ---
 flowchart TB
-    id0(開始)
+    id0((開始))
     id1[入力]
     id2[処理]
     id3[出力]
-    id4(終了)
+    id4((終了))
     id0 --> id1 --> id2 --> id3 --> id4
 ```
 
