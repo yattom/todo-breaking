@@ -2,6 +2,7 @@
 
 ユーザーが自分の名前を入力します。コンピュータが、「Hello, <入力した名前>.」と出力します。
 
+```mermaid
 ---
 title: Hello World
 ---
@@ -11,6 +12,7 @@ flowchart UD
     id3[出力]
     id1 --> id2
     id2 --> id3
+```
 
 
 # 001 数字にする
