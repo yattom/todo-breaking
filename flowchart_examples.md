@@ -23,3 +23,14 @@ flowchart TB
     id0 -- true --> id1
     id0 -- false --> id2
 ```
+
+```mermaid
+---
+title: 朝のルーチン
+---
+flowchart TB
+    id1[朝起きる]
+    id2[顔洗う]
+    id3[出かける]
+    id1 --> id2 --> id3
+```
