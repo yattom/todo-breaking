@@ -16,6 +16,23 @@ flowchart TB
 ```
 
 ```mermaid
+---
+title: Hello World データの流れ付き
+---
+flowchart TB
+    START(( ))
+    input[名前を入力する]
+    process[文字列にHello, と.を付ける]
+    output[文字列を表示する]
+    END(( ))
+    name[name]
+    hello[hello]
+    START --> input --> process --> output --> END
+    input -.-> name -.-> process
+    process -.-> hello -.-> output
+```
+
+```mermaid
 flowchart TB
     id0{条件}
     id1[処理1]
@@ -70,3 +87,4 @@ flowchart TB
     id4[\     /]
     id0 --> id1 --> id2 --> id3 --> id4
 ```
+
