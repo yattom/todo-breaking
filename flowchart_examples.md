@@ -57,3 +57,16 @@ flowchart TB
     id1 -- true --> id3
     id1 -- false --> id2
 ```
+
+```mermaid
+---
+title: 朝のルーチン (繰り返しの例)
+---
+flowchart TB
+    id0[/起きる時間まで繰り返す\]
+    id1[目が覚める]
+    id2[時計を見る]
+    id3[また寝る]
+    id4[\     /]
+    id0 --> id1 --> id2 --> id3 --> id4
+```
