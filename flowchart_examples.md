@@ -77,6 +77,30 @@ flowchart TB
 
 ```mermaid
 ---
+title: 繰り返しの例
+---
+flowchart TB
+    id0[/条件まで繰り返す\]
+    id1[処理]
+    id2[処理]
+    id3[\     /]
+    id0 --> id1 --> id2 --> id3
+```
+
+```mermaid
+---
+title: 繰り返しの例
+---
+flowchart TB
+    id0[/  \]
+    id1[処理]
+    id2[処理]
+    id3[\条件まで繰り返す/]
+    id0 --> id1 --> id2 --> id3
+```
+
+```mermaid
+---
 title: 朝のルーチン (繰り返しの例)
 ---
 flowchart TB
